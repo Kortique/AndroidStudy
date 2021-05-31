@@ -11,4 +11,8 @@
     <string name="checkbox">Галочку видите?</string>
     <string name="toggleButton1">А вот меня нажми</string>
     <string name="toggleButtonOn">Спасибо</string>
+    <string name="rb1">Браво!</string>
+    <string name="rb2">Ух ты!</string>
+    <string name="rb3">Класс!</string>
+    <string name="rb4">Вау!</string>
 </resources>
