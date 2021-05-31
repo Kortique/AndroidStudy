@@ -2,10 +2,13 @@
     <string name="app_name">Debug</string>
     <string name="is_equal">Равно?</string>
     <string name="hello">Драсти</string>
-    <string name="EnterText">Ввести текст</string>
-    <string name="switchcompat">SwitchCompat</string>
-    <string name="off">OFF</string>
-    <string name="on">ON</string>
-    <string name="button">Button</string>
+    <string name="EnterText">Кто здесь?</string>
+    <string name="switchCompat">Туда-Сюда</string>
+    <string name="off">УХ</string>
+    <string name="on">ЫХ</string>
+    <string name="button">Не нажимать</string>
     <string name="textview">Тут могла быть ваша реклама</string>
+    <string name="checkbox">Галочку видите?</string>
+    <string name="toggleButton1">А вот меня нажми</string>
+    <string name="toggleButtonOn">Спасибо</string>
 </resources>

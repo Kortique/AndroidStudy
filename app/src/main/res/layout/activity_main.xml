@@ -12,7 +12,6 @@
         android:text="@string/hello"
         android:layout_gravity="center"
         android:textColor="@color/teal_200"
-        android:textFontWeight="@android:integer/config_longAnimTime"
         android:textSize="26sp" />
 
     <EditText
@@ -24,12 +23,14 @@
         android:gravity="center"
         android:textSize="26sp" />
 
-
     <Button
         android:id="@+id/button"
         android:layout_gravity="center"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/design_default_color_secondary"
         android:text="@string/button" />
 
     <androidx.appcompat.widget.SwitchCompat
@@ -38,22 +39,28 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:checked="false"
-        android:text="@string/switchcompat"
+        android:text="@string/switchCompat"
         android:textOff="@string/off"
         android:textOn="@string/on"
+        app:trackTint="@color/purple_200"
         app:showText="true"/>
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
+        android:theme="@style/CardView.Dark"
+        android:textSize="20sp"
+        android:text="@string/checkbox" />
 
     <ToggleButton
         android:id="@+id/toggleButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ToggleButton" />
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textOff="@string/toggleButton1"
+        android:textOn="@string/toggleButtonOn"/>
 
     <RadioButton
         android:id="@+id/radioButton"
